@@ -20,6 +20,7 @@
     },
     "require": {
         "webpress/core": "^0.1",
+        "webpress/post-manager": "^0.3",
         "cviebrock/eloquent-sluggable": "7.0.1"
     },
     "require-dev": {

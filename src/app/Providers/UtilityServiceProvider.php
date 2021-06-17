@@ -4,7 +4,6 @@ namespace VCComponent\Laravel\Utility\Providers;
 
 use Illuminate\Support\Facades\View;
 use Illuminate\Support\ServiceProvider;
-use VCComponent\Laravel\Utility\Http\View\Composers\SlideComposer;
 
 class UtilityServiceProvider extends ServiceProvider
 {
@@ -30,6 +29,5 @@ class UtilityServiceProvider extends ServiceProvider
      */
     public function register()
     {
-        View::composer('utility::slide', SlideComposer::class);
     }
 }
